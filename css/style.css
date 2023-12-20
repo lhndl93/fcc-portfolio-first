@@ -1,0 +1,153 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-color: #3b3751;
+  color: #95989a;
+  padding-top: 70px;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #3b3751;
+  border: none;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 10px 0px 10px 40px;
+}
+
+.navbar-default .navbar-brand {
+  color: #000;
+}
+
+.nav {
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.navbar-default .navbar-nav li a {
+  font-size: 25px;
+  padding-top: 20px;
+  color: #000;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #95989a;
+  cursor: pointer;
+}
+
+.welcome-main {
+  height: 95vh;
+  padding: 15% 0px 150px 0px;
+}
+
+.welcome h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 700px;
+}
+
+.title-lee,
+.title-hindle {
+  color: #000;
+}
+
+.title-portfolio {
+  color: #999;
+  font-size: 40px;
+}
+
+.welcome p {
+  font-size: 20px;
+}
+
+.lee-description {
+  color: #000;
+}
+
+.recent-work {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.work-title {
+  color: #514888;
+  text-transform: uppercase;
+}
+
+.card {
+  height: 150px;
+  width: 350;
+}
+
+.portfolio,
+.contact {
+  padding-top: 200px;
+  height: 95vh;
+  margin: 150px 0px 40px 0px;
+}
+
+.recent-work img {
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.4);
+}
+
+.recent-work img:hover {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(81, 72, 136, 1);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(81, 72, 136, 1);
+  box-shadow: 0px 0px 30px 0px rgba(81, 72, 136, 1);
+  cursor: pointer;
+}
+
+.modal-content {
+  background-color: #3b3751;
+}
+
+.modal-footer {
+  border: none;
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-body img {
+  margin-bottom: 15px;
+}
+
+.navbar-default .navbar-nav li a:focus {
+  color: #000;
+}
+
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand,
+  .title-portfolio {
+    margin: 0;
+    font-size: 25px;
+  }
+  .recent-work {
+    margin-bottom: 70px;
+  }
+  .portfolio,
+  .contact {
+    height: 100%;
+  }
+}
